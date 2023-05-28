@@ -1,0 +1,58 @@
+.navbar-dark {
+    background-color: #333333;
+}
+
+body{
+    background-color: #333333;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.search{
+    border-radius: 5px;
+    height: 33.5px;
+    width: 250px;
+}
+.search::placeholder {
+    padding: 8px;
+    
+}
+
+.nav-item{
+    margin-left: 40px;
+    font-size: 15px;
+}
+
+.menu{
+   border-radius: 3px;
+   border: 0.5px solid rgb(143, 143, 143);
+}
+
+.price{
+    color: #f8a831;
+}
+
+del{
+    color: black;
+}
+
+.buy button{
+    width: 210px;
+    margin-bottom: 18px ;
+}
+
+.menu{
+    position: relative;
+
+}
+
+.tag{
+    position: absolute;
+    top:0;
+    left:0;
+    padding: 1px 15px;
+    background-color: yellow;
+    color: black;
+    border: none;
+    font-weight: bold;
+
+}
